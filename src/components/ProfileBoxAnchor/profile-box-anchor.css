@@ -1,0 +1,14 @@
+.profile-box-anchor {
+}
+.profile-box-anchor .avatar-container {
+  cursor: pointer;
+}
+.profile-box-anchor .avatar-container .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px dashed #888;
+}
+.profile-box-anchor .userName {
+}

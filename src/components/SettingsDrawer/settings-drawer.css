@@ -1,0 +1,36 @@
+.settings-drawer {
+  max-width: 300px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1rem 1.5rem;
+}
+
+.settings-drawer.transformed {
+  animation: transformedDrawer 0.4s ease-in-out 0s 1 alternate backwards;
+}
+
+.settings-drawer.un-transformed {
+  animation: transformedDrawer2 0.4s ease-in-out 0s 1 reverse forwards;
+}
+
+@keyframes transformedDrawer {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes transformedDrawer2 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
